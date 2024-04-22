@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .bio {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        button {
+            margin-bottom: 20px;
+            font-size: 16px;
+            background-color: rgb(63, 63, 119);
+            color: #f4f4f4;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Profile</h1>
+    </div>
+    <div class="container">
+        <img src="Linkdn profile pic.jpg" alt="Profile Picture" class="profile-picture">
+        <div class="name">Nicolas Marin</div>
+        <div class="bio">Always down to have fun and have a good time. Love travelling and going to EDM music Festivals. Currently living in Dertroit trying to make new friends</div>
+        <button type="button">Follow Me</button>
+        <div class="gallery">
+            <img src="Graduation extra large.jpg" alt="Gallery Image 1">
+            <img src="IMG_7873.JPG" alt="Gallery Image 2">
+            <img src="WhatsApp Image 2022-01-19 at 5.57.55 PM.jpeg" alt="Gallery Image 3">
+        
+        </div>
+    </div>
+</body>
+</html>
